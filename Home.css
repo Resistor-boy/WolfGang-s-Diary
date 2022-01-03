@@ -1,0 +1,104 @@
+#title {
+    width: 800px;
+    height: auto;
+    margin: 0px auto;
+    padding-top: 30px;
+    text-align: center;
+}
+#topic {
+    font-size: 60px;
+    font-family: 'Pushster', cursive;
+    letter-spacing: -5px;
+}
+#rt {
+    color: rgb(103, 139, 255);
+    font-size: 15px;
+    font-weight: bold;
+    text-align: right;
+}
+#main_nav {
+    position:fixed;
+    top: 0; left: 70%;
+    width: 370px;
+    display: block;
+}
+#item {
+    float: left;
+    border: 2px solid black;
+    font-size: 13px;
+    font-weight: bold;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+#item:first-child {border-radius: 0 0 0 5px;}
+#item:last-child {border-radius: 0 0 5px 0;}
+#item > a {text-decoration-line: none;}
+#item:hover{
+    background-color: black;
+    color: rgb(255, 255, 255);
+}
+#center {
+    width: 1500px;
+    height: 350px;
+    margin: 0px auto;
+    margin-top: 100px;
+    background-color: #3a78ff;
+}
+#center > .category {
+    display: flex;
+    margin: 0px auto;
+    padding-left: 400px;
+    padding-right: 400px;
+
+}
+#center > .category > .subject {
+    margin: 0px auto;
+    border: 1px solid black;
+    border-radius: 30px;
+    width: 300px;
+    height: 300px;
+    text-align: center;
+    margin-top: 25px;
+    background-color: #ffffff;
+    font-family:'Pushster', cursive;
+    letter-spacing: -3px;
+    
+}
+#center > .category > .subject > a {
+    color: black;
+    font-size: 30px;
+    text-decoration-line: none;
+}
+#mainpage {
+    width: 650px;
+    margin: 0px auto;
+}
+#surve {
+    width: 650px;
+    margin: 0px auto;
+    margin-top: 50px;
+    text-align: center;
+}
+#surve > #NewsLetter {
+    margin: 0px auto;
+    width: 300px;
+    height: auto;
+    border: 1px solid black;
+    background-color: black;
+    border-radius: 10px;
+    font-size: 25px;
+    font-weight: bold;
+}
+#surve > #NewsLetter > a{
+    color:rgb(255, 255, 255);
+    text-decoration-line: none;
+}
+#surve > #NewsLetter:hover{
+    background: royalblue;
+}
+#stamp {
+    margin-top: 50px;
+    margin-left: 85%;
+    font-size: 20px;
+    font-weight: bold;
+}
